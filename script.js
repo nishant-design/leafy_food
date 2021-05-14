@@ -4,8 +4,7 @@ const navList = document.querySelector(".nav_list");
 
 hamburger.addEventListener("click" ,open)
 
-function open (e) {
-    console.log("hello")
+function open () {
     navList.classList.toggle("open")
 }
 
